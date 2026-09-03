@@ -1,7 +1,7 @@
 name = input("Enter your name: ")
 print(f"I am {name}")
 
-age = input("Enter your age: ")
+age = int(input("Enter your age: "))
 print(f"I am {age} years old")
 
 lab = input("Enter your lab name: ")
@@ -20,4 +20,6 @@ print(f"My product price is {product_price}")
 total_price = int(product_count) * float(product_price)
 print(f"The total price is {total_price}")
 
+
+print(type(age))
 
