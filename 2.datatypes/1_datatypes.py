@@ -47,3 +47,6 @@ print(type(Is_available))
 print(type(product_discount))
 print(type(Product_discount))
 
+
+
+
