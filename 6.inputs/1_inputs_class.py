@@ -23,11 +23,13 @@
 
 # print(type(age))
 
-a, *b = map(int,input("Enter two numbers: ").split())
-b= [type(x) for x in b]
-print(a,b, type(a), type(b))
+# a, *b = map(int,input("Enter two numbers: ").split())
+# b= [type(x) for x in b]
+# print(a,b, type(a), type(b))
 #print(a, type(a))
 
 #print("hello", end=" ")
 #print("world")
       
+print("18"==18)
+print("18" >= 18)
