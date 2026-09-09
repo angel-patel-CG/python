@@ -60,22 +60,65 @@
 
 ## calculator
 
-number_1 = int(input("enter number 1 :"))
-number_2 = int(input("enter number 2 :"))
+# print (" 1.addition  2.substraction  3.multiplication  4.devision  5.floordevision")
 
-print (" 1.addition  2.substraction  3.multiplication  4.devision  5.floordevision")
+# operation = input( "what do you want to perform,enter number or name of operation: ").lower().strip()
 
-operation = input( "what do you want to perform,enter number or name of operation: ").lower().strip()
 
-if operation == "addition" or operation== str(1) :
-    print(f"addition is : {number_1+number_2}")
-elif operation == "substraction" or operation == str(2) :
-    print(f"substraction is : {number_1-number_2}")
-elif operation == "multiplication" or operation == str(3) :
-    print(f"multiplication is : {number_1*number_2}")
-elif operation == "devision " or operation == str(4) :
-    print(f"devision is : {number_1/number_2}")
-elif operation == "fllordevision" or operation == str(5) :
-    print(f"floordevision is : {number_1//number_2}")
+# if operation == "addition" or operation==str(1) or operation == "substraction" or  operation == str(2) or operation == "multiplication" or  operation == str(3) or operation == "devision " or  operation == str(4) or operation == "floordevision" or operation == str(5):
+
+#     number_1 = int(input("enter number 1 :"))
+#     number_2 = int(input("enter number 2 :"))
+
+#     if operation == "addition" or operation== str(1) :
+#         print(f"addition is : {number_1+number_2}")
+#     elif operation == "substraction" or operation == str(2) :
+#         print(f"substraction is : {number_1-number_2}")
+#     elif operation == "multiplication" or operation == str(3) :
+#         print(f"multiplication is : {number_1*number_2}")
+#     elif operation == "devision " or operation == str(4) :
+#         print(f"devision is : {number_1/number_2}")
+#     elif operation == "floordevision" or operation == str(5) :
+#         print(f"floordevision is : {number_1//number_2}")
+# else:
+#     print("invalid operation")
+
+# # boolenan inputs
+
+# has_id = bool(input("enter your value: ").strip())
+# print(has_id)
+
+# #part 2
+
+# has_id = input("enter if you have id (yes/no): ").strip().lower()
+# if has_id == "no":
+#     has_id=False
+#     print("please bring your id!!")
+    
+# elif has_id=="yes":
+#     has_id=True
+#     print("welcome!!")
+# else:
+#     print("enter a valid value!!")
+
+# # part 3
+
+a = yes = True 
+b = no = False 
+
+has_id = input("enter if you have id (yes/no): ").strip().lower() 
+
+if has_id == "yes" :
+    has_id=True
+    print("welcome!!")
+
+elif has_id == "no" :
+    has_id= False
+    print("please bring your id!!")
+
 else:
-    print("invalid operation")
+    print("enter a valid value!!") 
+
+
+
+   
