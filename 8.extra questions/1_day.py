@@ -204,5 +204,7 @@
 # elif Profit_Pr < Loss_Pr:
 #     print(f" loss percentage is {Loss_Pr}")
 
+#16
+
 
 
