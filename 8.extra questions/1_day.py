@@ -139,8 +139,70 @@
 
 ###level 2
 
-#10
+# #11
 
+# year = int(input("enter a year : "))
+
+
+# if year%4==0:
+#     print(f"{year} is a Leap year")
+
+
+# elif year%4!=0:
+#     print(f"{year} is a not Leap year")
+
+# #12
+
+# value = input("enter one character: ").strip()
+
+ 
+# if "A" <= value <= "Z":
+#     print("Uppercase alphabet")
+# elif "a" <= value <= "z":
+#     print("Lowercase alphabet")
+# elif str(0) <= value <= str(9):
+#     print("Digit") 
+# else:
+#     print("Special character")
+
+# #13
+
+# value = input("enter one character: ").lower()
+
+# if value=="a" or value=="e" or value=="i" or value=="o" or value=="u":
+#     print("Vowel")
+# elif "a" < value <= "z" and value!="a" and value!="e" and value!="i" and value!="o" and value!="u":
+#     print("Consonant")
+# else:
+#     print("Invalid input")
+
+# #14
+
+# Cost_price = int(input("enter cost price of the product: "))
+# Selling_price = int(input("enter selling price of the product: "))
+
+# if Cost_price > Selling_price :
+#     print("Loss")
+# elif Cost_price < Selling_price :
+#     print("Profit")
+# elif Cost_price == Selling_price :
+#     print("No profit and no loss")
+
+# #15
+
+# Cost_Price = int(input("enter cost price of the product: "))
+# Selling_Price = int(input("enter selling price of the product: "))
+
+# Profit = (Selling_Price - Cost_Price)
+# Loss = (Cost_Price - Selling_Price)
+
+# Profit_Pr = Profit / Cost_Price * 100
+# Loss_Pr = Loss / Cost_Price * 100
+
+# if Profit_Pr > Loss_Pr:
+#     print(f" profit percentage is {Profit_Pr}")
+# elif Profit_Pr < Loss_Pr:
+#     print(f" loss percentage is {Loss_Pr}")
 
 
 
