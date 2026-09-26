@@ -160,7 +160,7 @@
 #     print("Uppercase alphabet")
 # elif "a" <= value <= "z":
 #     print("Lowercase alphabet")
-# elif str(0) <= value <= str(9):
+# elif str(-9) <= value <= str(9):
 #     print("Digit") 
 # else:
 #     print("Special character")
@@ -204,7 +204,62 @@
 # elif Profit_Pr < Loss_Pr:
 #     print(f" loss percentage is {Loss_Pr}")
 
-#16
+# #16
 
+
+units = float(input("enter units: "))
+
+total=""
+
+if  units <= 100:
+    print(units*5)
+   
+elif 100 < units <= 200 :
+    first_total = float(100*5)
+    second_total = float((units-100)*7)
+    print(first_total+ second_total)
+
+else:
+    first_total = float(100*5)
+    second_total = float((units-100)*7)
+    remaining_total = float((units-200)*10)
+    print(first_total + second_total + remaining_total)
+
+
+
+
+# #17
+
+# number1 = int(input("enter your first number: ").strip())
+# number2 = int(input("enter your second number: ").strip())
+# print("+, -, *, /")
+# operator = input("enter operator : ")
+
+# if operator == "/" and number2!= 0:
+#     print(number1/number2)
+
+# elif operator == "+":
+#     print(number1+number2)
+
+# elif operator == "-":
+#     print(number1-number2)
+
+# elif operator == "*":
+#     print(number1*number2)
+
+#18
+
+tem = float(input("Enter a temperature in Celsius: "))
+
+if tem <= 0:
+    print("Freezing")
+elif 0 < tem <= 15:
+    print("Very Cold")
+elif 16 <= tem <= 25:
+    print("Cold")
+elif 26 <= tem <= 35:
+    print("Normal")
+elif tem > 35:
+    print("Hot")
 
 
