@@ -204,15 +204,27 @@
 
 #orrrrrrrrrrrrr
 
-num = int(input("enter number:"))
+# num = int(input("enter number:"))
 
-for i in range(1,num+1):
-    for j in range(1,num+1):
+# for i in range(1,num+1):
+#     for j in range(1,num+1):
 
-        if j==1 or i==num or j==num:
-                print("*",end=" ")   
-        elif  i == num/2 and j == num/2:
-            print("*",end=" ") 
-        else:
-             print("", end="  ") 
-    print()
+#         if j==1 or i==num or j==num:
+#                 print("*",end=" ")   
+#         elif  i == num/2 and j == num/2:
+#             print("*",end=" ") 
+#         else:
+#              print("", end="  ") 
+#     print()
+
+
+
+# #22 wrongggggggggggggg
+
+# ch = ""
+
+# for i in range(3): 
+#     for j in range(10):
+#         print(ch, end=" ") 
+#         ch = chr(65 + j)  
+#     print()
