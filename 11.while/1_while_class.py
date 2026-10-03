@@ -122,21 +122,112 @@
 #     print(digit)
 #     num = num // 10
 
-#9
+#9         similar to 8  reverse a numberrrrrrrrrrrrrrrrrrrrrrrrrrrr
 
-number = int(input("Enter a number: "))
+# number = int(input("Enter a number: "))
 
-total = 0
+# reverse = 0
 
-while number > 0:
-    digit = number % 10
-    total = total + digit
-    number = number // 10
+# while number > 0:
+#     digit = number % 10
+#     reverse = reverse * 10 + digit
+#     number = number // 10
 
-print("Sum => ", total)
+# print("Reverse:", reverse)
+
+
+#10
+
+# number = int(input("Enter a number: "))
+
+# total = 0
+
+# while number > 0:
+#     digit = number % 10
+#     total = total + digit
+#     number = number // 10
+
+# print("Sum => ", total)
     
 
+# #11 infinite looopppp
 
+# i = 1
+
+# while i <= 5:
+#     print(i)
+    
+
+# #12 infinite to finite looppp conversion
+
+# i = 1
+
+# while i <= 5:
+#     print(i)
+#     i = i + 1
+
+
+# #13 another infinite loooppp 
+
+# i = 10
+
+# while i > 0:
+#     print(i)
+#     i = i + 1
+
+
+# # 14 another infinite looop convert to finite looppp
+
+# i = 10
+
+# while i > 0:
+#     print(i)
+#     i = i - 1
+
+# #15 nested whileee loooopppp
+
+# row = 1
+
+# while row <= 3:
+#     column = 1
+
+#     while column <= 4:
+#         print("*", end=" ")
+#         column = column + 1
+
+#     print()
+#     row = row + 1
+
+
+# #16 num patternssssssssss
+
+# row = 1
+
+# while row <= 4:
+#     column = 1
+
+#     while column <= row:
+#         print(column, end="")
+#         column = column + 1
+
+#     print()
+#     row = row + 1
+
+
+
+# #17 reverse num pattern 
+
+# i = 5
+
+# while i >= 1:
+#     j = 5
+
+#     while j >= 6-i:
+#         print(j,end=" ")
+#         j = j - 1
+
+#     print()
+#     i = i - 1
 
 
 

@@ -234,6 +234,23 @@
 #     print()
 
 
+#24 by while looppppp
+
+# i = 5
+
+# while i >= 1:
+#     j = 5
+
+#     while j >= 6-i:
+#         print(j,end=" ")
+#         j = j - 1
+
+#     print()
+#     i = i - 1
+
+
+
+
 # #25
 
 # for i in range(1,6):
