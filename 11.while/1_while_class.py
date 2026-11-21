@@ -230,7 +230,34 @@
 #     i = i - 1
 
 
+# #18
+
+# i = int(input("Enter your number: "))
+
+# reverse = 0
+
+# while i != 0:
+
+#     binary = i%2
+#     digit = i % 10
+#     reverse = reverse * 10 + digit
+#     i = i // 10
+#     print(binary)
+#     continue
+# i = i//2
 
 
+# #19
+ 
+# i = int(input("Enter your number: ")) 
 
+# while i > -10:
+#     name = "Angel"
+#     i = i - 1
+
+# print(i)
+# print(name)
+
+
+#20
 

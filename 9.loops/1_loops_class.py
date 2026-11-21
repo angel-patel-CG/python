@@ -228,3 +228,107 @@
 #         print(ch, end=" ") 
 #         ch = chr(65 + j)  
 #     print()
+
+
+# 23
+
+# string = input("enter your string: ").strip().lower()
+# count = 0
+# flag = True
+
+# for char in string:
+#     count +=1
+#     if char == "o":
+#         print("Found")
+#         flag = False
+#         break
+# print(count)
+
+# if flag:
+#     print("Not Found")    
+
+
+#orrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+
+
+# string = input("enter your string: ").strip().lower()
+# count = 0
+# length = len(string)
+# flag = True
+
+# for char in range(length):
+#     count +=1
+#     if string[char] == "o":
+#         print("Found")
+#         flag = False
+#         break
+# print(count)
+
+# if flag:
+#     print("Not Found")    
+
+
+
+# #24
+
+# n = int(input("enter a number: "))
+# count = 1
+
+# for i in range(1,n+1):
+#     count *= i
+# print(count)
+
+
+# #25
+
+
+# string = input("Enter your string: ").strip().lower()
+
+# count = 1
+
+# for i in range(len(string) - 1):
+
+#     if string[i] == string[i + 1]:
+#         count += 1
+
+#     else:
+#         print(f"'{string[i]}' = {count}")
+#         count = 1
+
+# if len(string) > 0:
+#     print(f"'{string[-1]}' = {count}") 
+
+
+#0rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+
+# count = 1
+# output = ""
+# word = input("Enter your string: ").strip().lower()
+# length = len(word)
+# for i in range(1,length):
+#     if word[i] == word[i-1]:
+#         count += 1
+#     else:
+#         output += word[i-1] + str(count)
+#         count = 1
+
+# output += word[length-1] + str(count)  # Add the last character and its count
+# print(output)
+
+
+# count = 1
+# output = ""
+# word = input("Enter your string: ").strip().lower()
+# length = len(word)
+# for i in range(length, 0, -1):
+#     if word[length-1] == word[length-2]:
+#         count += 1
+#     else:
+#         output += word[i] + str(count)
+#         count = 1
+
+# # output += word[length-1] + str(count)  # Add the last character and its count
+# print(output)
+
+
+
