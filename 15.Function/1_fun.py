@@ -337,13 +337,50 @@
 
 #20
 
-# list = [1, 2, 3, 4, 5]
+# # list = [1, 2, 3, 4, 5]
 
-def outer():
-    # list = [1, 2, 3, 4, 5]
-    def inner():
-        # list = [1, 2, 3, 4, 5]
-        print(list("hello"))
-    inner()
-outer()
-print(list)
+# def outer():
+#     # list = [1, 2, 3, 4, 5]
+#     def inner():
+#         # list = [1, 2, 3, 4, 5]
+#         print(list("hello"))
+#     inner()
+# outer()
+# print(list)
+
+
+
+# #21
+
+
+# def outer():
+#     list = "Hi"
+#     def inner():
+#         global list
+#         print(list("Helllo"))
+#     inner()
+# outer()
+
+
+
+#22
+
+def make_counter():
+    count = 0
+
+    def increment():
+        nonlocal count
+        count += 1
+        return count
+
+    return increment
+
+counter = make_counter()
+print(counter())
+print(counter())
+print(counter())
+
+
+# print(make_counter()())
+# print(make_counter()())
+# print(make_counter()())
